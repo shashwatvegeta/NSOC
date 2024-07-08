@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import './Game.css';
 const Game = () => {
   const [showSecond, setShowSecond] = useState(false);
-  const [bgImage, setBgImage] = useState('url(./src/images/hostel.jpg)');
+  const [bgImage, setBgImage] = useState('url(/hostel.jpg)');
 
   const handleClick = () => {
     setShowSecond(true);
-    setBgImage('url(./src/images/announcement.jpg)');
+    setBgImage('url(/announcement.jpg)');
   };
 
   const handleNo = () => {

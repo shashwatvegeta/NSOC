@@ -20,13 +20,14 @@ import GoodResults from './pages/GoodResults.jsx'
 import Coding from './pages/Coding.jsx'
 import MCCodingReels from './pages/MCCodingReels.jsx'
 import FinalChallenge from './pages/FinalChallenge.jsx'
+import Subcoord from './pages/Subcoord.jsx'
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
@@ -102,6 +103,10 @@ const router = createBrowserRouter([
   {
     path:"/final-challenge",
     element:<FinalChallenge/>
+  },
+  {
+    path:"/subcoord-quiz",
+    element:<Subcoord/>
   }
 ]);
 

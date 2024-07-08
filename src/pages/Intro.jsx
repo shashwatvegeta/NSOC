@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Intro = () => {
   const [showSecond, setShowSecond] = useState(false);
-  const [bgImage, setBgImage] = useState('url("./src/images/intro2.jpg")'); // initial background image
+  const [bgImage, setBgImage] = useState('url("/intro2.jpg")'); // initial background image
   const [showThird, setShowThird] = useState(false);
   const [showForth, setShowForth] = useState(false);
   const [showFifth, setShowFifth] = useState(false);
@@ -13,25 +13,25 @@ const Intro = () => {
 
   const handleClick = () => {
     setShowSecond(true);
-    setBgImage('url(./src/images/11th.jpg)'); // new background image
+    setBgImage('url(/11th.jpg)'); // new background image
   };
   const handleClick2 = () => {
     setShowSecond(false);
     setShowThird(true);
-    setBgImage('url(./src/images/11th.jpg)'); // new background image
+    setBgImage('url(/11th.jpg)'); // new background image
   };
   const handleClick3 = () => {
     setShowSecond(false);
     setShowThird(false);
     setShowForth(true);
-    setBgImage('url(./src/images/12th.jpg)'); // new background image
+    setBgImage('url(/12th.jpg)'); // new background image
   };
   const handleClick4 = () => {
     setShowSecond(false);
     setShowThird(false);
     setShowForth(false);
     setShowFifth(true);
-    setBgImage('url(./src/images/examday.jpg)'); // new background image
+    setBgImage('url(/examday.jpg)'); // new background image
   };
   const handleClick5 = () => {
     setShowSecond(false);
@@ -39,7 +39,7 @@ const Intro = () => {
     setShowForth(false);
     setShowFifth(false);
     setShowSixth(true);
-    setBgImage('url(./src/images/resultday.jpg)'); // new background image
+    setBgImage('url(/resultday.jpg)'); // new background image
   };
   const handleClick6 = () => {
     setShowSecond(false);
@@ -48,7 +48,7 @@ const Intro = () => {
     setShowFifth(false);
     setShowSixth(false);
     setShowSeventh(true);
-    setBgImage('url(./src/images/journey_starts.jpg)'); // new background image
+    setBgImage('url(/journey_starts.jpg)'); // new background image
   };
 
 
@@ -129,7 +129,7 @@ const Intro = () => {
         <div style={{textAlign:"center",textDecoration:"underline"}}>The Journey Begins</div>
         <div>Standing at the gates now, you take a deep breath and step forward. This is where your new journey begins. The next few years will be filled with learning, growth, and countless experiences that will shape your future.</div>
 
-        <div>Welcome to Ivy National College. Your story is just beginning.</div>
+        <div>Welcome to IIT Patna. Your story is just beginning.</div>
         </div>
         
       )}

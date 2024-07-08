@@ -44,7 +44,7 @@ const Treasurehuntbegin = () => {
   const [timer, setTimer] = useState(60);
   const [score, setScore] = useState(0);
   const [quizComplete, setQuizComplete] = useState(false);
-  const [bgImage, setBgImage]= useState('url(./src/images/treasure_hunt.jpg)');
+  // const [bgImage, setBgImage]= useState('url(/treasure_hunt.jpg)');
   useEffect(() => {
     const countdown = setInterval(() => {
       setTimer((prevTimer) => (prevTimer > 0 ? prevTimer - 1 : 0));
@@ -108,7 +108,7 @@ const Treasurehuntbegin = () => {
   );
 
   return (
-    <div className='main' style={{ padding: '20px', maxWidth: '600px', margin: '32px auto',backgroundImage:bgImage, backgroundSize:"cover", minHeight:"100vh" }}>
+    <div className='main' style={{ padding: '20px', maxWidth: '600px', margin: '32px auto', minHeight:"80vh" }}>
       {quizComplete ? renderResult() : renderQuestion()}
     </div>
   );

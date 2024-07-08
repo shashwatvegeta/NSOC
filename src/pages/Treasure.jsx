@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Treasure = () => {
     const [showSecond, setShowSecond] = useState(false);
-    const [bgImage, setBgImage] = useState('url(./src/images/treasure_hunt.jpg)');
+    const [bgImage, setBgImage] = useState('url(/treasure_hunt.jpg)');
   return (
     <div
         style={{

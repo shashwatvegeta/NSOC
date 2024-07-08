@@ -37,6 +37,7 @@ const Midsem = () => {
         <button className='p-2'><Link to="/midsem/PH103">Give PH103 Exam</Link></button>
         <button className='p-2'><Link to="/midsem/EE101">Give EE101 Exam</Link></button>
         <button className='p-2'><Link to="/midsem/MA101">Give MA101 Exam</Link></button>
+        <button className='p-2 blink'><Link to="/subcoord-quiz">Leave exams to play guess the sub coord</Link></button>
       </div>
     </div>
   );
