@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Intro = () => {
   const [showSecond, setShowSecond] = useState(false);
-  const [bgImage, setBgImage] = useState('url("/intro2.jpg")'); // initial background image
+  const [bgImage, setBgImage] = useState('url("/intro2.jpg")'); 
   const [showThird, setShowThird] = useState(false);
   const [showForth, setShowForth] = useState(false);
   const [showFifth, setShowFifth] = useState(false);
@@ -13,25 +13,25 @@ const Intro = () => {
 
   const handleClick = () => {
     setShowSecond(true);
-    setBgImage('url(/11th.jpg)'); // new background image
+    setBgImage('url(/11th.jpg)'); 
   };
   const handleClick2 = () => {
     setShowSecond(false);
     setShowThird(true);
-    setBgImage('url(/11th.jpg)'); // new background image
+    setBgImage('url(/11th.jpg)'); 
   };
   const handleClick3 = () => {
     setShowSecond(false);
     setShowThird(false);
     setShowForth(true);
-    setBgImage('url(/12th.jpg)'); // new background image
+    setBgImage('url(/12th.jpg)'); 
   };
   const handleClick4 = () => {
     setShowSecond(false);
     setShowThird(false);
     setShowForth(false);
     setShowFifth(true);
-    setBgImage('url(/examday.jpg)'); // new background image
+    setBgImage('url(/examday.jpg)'); 
   };
   const handleClick5 = () => {
     setShowSecond(false);
@@ -39,7 +39,7 @@ const Intro = () => {
     setShowForth(false);
     setShowFifth(false);
     setShowSixth(true);
-    setBgImage('url(/resultday.jpg)'); // new background image
+    setBgImage('url(/resultday.jpg)'); 
   };
   const handleClick6 = () => {
     setShowSecond(false);
@@ -48,7 +48,7 @@ const Intro = () => {
     setShowFifth(false);
     setShowSixth(false);
     setShowSeventh(true);
-    setBgImage('url(/journey_starts.jpg)'); // new background image
+    setBgImage('url(/journey_starts.jpg)'); 
   };
 
 

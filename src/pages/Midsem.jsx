@@ -1,6 +1,6 @@
-// ExamSchedule.js
+
 import React from 'react';
-import './midsem.css'; // Import CSS for styling
+import './midsem.css'; 
 import { Link } from 'react-router-dom';
 
 const Midsem = () => {
