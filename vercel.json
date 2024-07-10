@@ -1,0 +1,87 @@
+{
+    "routes":[
+        { "src":"/", "dest":"/"},
+
+        {
+            "src": "/intro",
+            "dest": "/intro"
+        },
+        {
+            "src": "/Game",
+            "dest": "/Game"
+          },
+          {
+            "src": "/treasure",
+            "dest": "/treasure"
+          },
+          {
+            "src": "/treasure/begin",
+            "dest": "/treasure/begin"
+          },
+          {
+            "src": "/midsem",
+            "dest": "/midsem"
+          },
+          {
+            "src": "/midsem/MA101",
+            "dest": "/midsem/MA101"
+          },
+          {
+            "src": "/midsem/PH103",
+            "dest": "/midsem/PH103"
+          },
+          {
+            "src": "/midsem/EE101",
+            "dest": "/midsem/EE101"
+          },
+          {
+            "src": "/midsem/HS",
+            "dest": "/midsem/HS"
+          },
+          {
+            "src": "/fest",
+            "dest": "/fest"
+          },
+          {
+            "src": "/fest/volunteer",
+            "dest": "/fest/volunteer"
+          },
+          {
+            "src": "/fest/candidate",
+            "dest": "/fest/candidate"
+          },
+          {
+            "src": "/fest/spectator",
+            "dest": "/fest/spectator"
+          },
+          {
+            "src": "/EndSem",
+            "dest": "/EndSem"
+          },
+          {
+            "src": "/GoodResults",
+            "dest": "/GoodResults"
+          },
+          {
+            "src": "/Coding",
+            "dest": "/Coding"
+          },
+          {
+            "src": "/MCCodingReels",
+            "dest": "/MCCodingReels"
+          },
+          {
+            "src": "/final-challenge",
+            "dest": "/final-challenge"
+          },
+          {
+            "src": "/subcoord-quiz",
+            "dest": "/subcoord-quiz"
+          },
+          {
+            "src": "/hidden",
+            "dest": "/hidden"
+          }
+          
+    ]
+}
